@@ -1,0 +1,26 @@
+.input {
+	&__message {
+		padding: 1rem 5rem 1rem 1.6rem;
+		flex-grow: 1;
+		border: none;
+
+		&:focus {
+			// border-radius: 5px 5px 5px 10px;
+			// border: 1px solid grey;
+			outline: none;
+		}
+	}
+
+	&__send {
+		background: #fff;
+		width: 6rem;
+		height: 6rem;
+		right: 0;
+		border: none;
+		cursor: pointer;
+
+		&:hover {
+			background: lavender;
+		}
+	}
+}

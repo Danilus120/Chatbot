@@ -1,0 +1,19 @@
+// Base
+@import 'base/reset';
+@import 'base/typography';
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/animations';
+
+// Components
+@import 'components/backgroundChatbot';
+@import 'components/chatbot';
+@import 'components/button';
+@import 'components/messages';
+@import 'components/loader';
+@import 'components/input';
+@import 'components/scrollbar';
+
+// Layout
+@import 'layout/display';

@@ -1,0 +1,21 @@
+.chatbot__button {
+	position: absolute;
+
+	right: 0;
+
+	background-color: $primary-color;
+
+	// border-radius: 50%;
+	border: none;
+
+	width: 60px;
+	height: 60px;
+
+	transition: all 0.2s ease-in;
+
+	cursor: pointer;
+
+	&:hover {
+		background-color: $primary-color-light;
+	}
+}
