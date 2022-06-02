@@ -34,7 +34,13 @@ The biggest problem with this project was the object-oriented programming approa
 
 ## 📷 Screenshots
 
-image.png
+<p align="center">
+    <img src="screenshots/1.png" alt="Screen Shot">
+</p>
+
+<p align="center">
+    <img src="screenshots/2.png" alt="Screen Shot">
+</p>
 
 ## 💾 Installation
 
