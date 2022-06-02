@@ -1,7 +1,7 @@
 import ChatbotUtils from './ChatbotUtils'
 import ChatbotController from './ChatbotController'
 import ChatbotState from './ChatbotState'
-import ChatbotElementsCreator from './ChatbotElementsCreator'
+import ChatbotElementsCreator from './ChatbotElementsCreator' 
 
 class Chatbot {
 	private chatbotController: ChatbotController
