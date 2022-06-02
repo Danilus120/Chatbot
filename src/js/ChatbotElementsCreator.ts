@@ -1,7 +1,7 @@
 import ChatbotUtils from "./ChatbotUtils"
-import chatDotsIcon from "../images/chat-dots-fill.svg";
-import chatCloseIcon from "../images/x-lg.svg";
-import inputSendIcon from "../images/send.svg";
+import chatDotsIcon from "../images/chatbotChatImage.svg";
+import chatCloseIcon from "../images/closeButtonImage.svg";
+import inputSendIcon from "../images/sendButtonImage.svg";
 
 export default class ChatbotElementsCreator {
 	public static createChatbotContainer() {
