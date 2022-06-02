@@ -1,27 +1,61 @@
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+# 🤖 Chatbot
 
-## General info
-This is project of basic Chatbot created by object oriented approach. Chatbot initialize itself. 
+## Table of contents
+* ℹ️ [General info](#general-info)
+* 🎉[Project overview](#project-overview)
+* 📖 [What I learned during this project?](#what-i-learned-during-this-project)
+* ⚙️ [Technologies](#technologies)
+* 📷 [Screenshots](#screenshots)
+* 💾 [Installation](#installation)
+* 📜 [Available scripts](#available-scripts)
+* 🔴 [Live](#live)
+
+## ℹ️ General info
+
+Chatbot Application
+
+## 🎉 Project Overview
+
+This is a basic chatbot application. The user can talk to the bot by typing or selecting predefined options. The bot searches for keywords, if it finds them, it responds with a predefined answer. The chatbot closes when the close button is clicked, or clicked outside the chatbot. The project is initialized entirely in a script. 
+
+## 📖 What I learned during this project?
+
+The biggest problem with this project was the object-oriented programming approach. I had to separate the program into classes. I used the SOC (Separation of concerns) design pattern.
 	
-## Technologies
-Project is created with:
-* Parcel version: 1.12.5
-* Typescript version: 4.6.4
-* Sass version: 1.51.0
-	
-## Setup
+## ⚙️ Technologies used in project:
+
+| Tech                                                    | Description                              |
+| ------------------------------------------------------- | ---------------------------------------- |
+| [Parcel](https://parceljs.org/)                         | Build tool for the web.                  |
+| [Typescript](https://www.typescriptlang.org/)           | Javascript superset language             |
+| [Sass](https://sass-lang.com/)                          | Css extension                            |
+| [Eslint](https://eslint.org/)                           | Javascript Linter                        |
+| [Prettier](https://prettier.io/)                        | Code formatter                           |
+
+## 📷 Screenshots
+
+image.png
+
+## 💾 Installation
+
 To run this project, install it locally using npm:
 
 ```
-$ npm install
-$ npm run dev
+git clone https://github.com/Danilus120/Chatbot.git
+
+npm install
+
+npm run dev
 ```
 
-To build this project:
+## 📜 Available scripts
 
-```
-$ npm run build
-```
+| Command                   | Description                   |
+| ------------------------- | ----------------------------- |
+| `npm run dev`             | Open local server             |
+| `npm run build`           | Create optimized build        |
+
+
+## 🔴 Live
+
+https://chatbot-danilus120.netlify.app/
