@@ -1,22 +1,27 @@
 .messageBox {
 	&__message {
 		padding: 8px 16px;
+
 		animation-name: fadeIn;
 		animation-iteration-count: 1;
 		animation-timing-function: ease-in;
 		animation-duration: 100ms;
 
 		&--sent {
-			background-color: $primary-color;
-			color: white;
 			margin: 8px 0px 8px auto;
+
+			color: white;
+			background-color: $primary-color;
+
 			border-radius: 8px 8px 0px 8px;
 		}
 
 		&--received {
-			background-color: white;
-			color: black;
 			margin: 8px auto 8px 0px;
+
+			color: black;
+			background-color: white;
+
 			border-radius: 8px 8px 8px 2px;
 		}
 	}
@@ -31,23 +36,22 @@
 		margin: 0 auto;
 
 		&__buttonMessage {
+			padding: 5px 15px;
+			margin: 5px 5px;
+			border: 1px solid $primary-color;
+			border-radius: 16px;
+
 			font-size: 1.6rem;
 			font-weight: 600;
 
 			color: $primary-color;
-			padding: 5px 15px;
-			margin: 5px 5px;
-
-			border: 1px solid $primary-color;
 
 			background-color: white;
 
-			border-radius: 16px;
-
-			cursor: pointer;
-
 			transition: all 0.2s;
 			transform: translateY(0);
+
+			cursor: pointer;
 
 			&:hover {
 				border: 1px solid $primary-color-light;

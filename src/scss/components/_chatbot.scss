@@ -1,58 +1,63 @@
 .chatbot {
 	position: fixed;
-
 	right: 0;
 	bottom: 0;
-
-	width: $width-chatbox;
-	height: $height-chatbox;
-
-	max-width: $maxWidth-chatbox;
-	max-height: $maxHeight-chatbox;
-
-	border-radius: 1rem;
-
-	overflow: hidden;
-
-	margin: 2rem;
-
-	transition: all 0.5s;
-
-	box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 
 	display: flex;
 	flex-direction: column;
 
+	width: $width-chatbox;
+	height: $height-chatbox;
+	max-width: $maxWidth-chatbox;
+	max-height: $maxHeight-chatbox;
+	margin: 2rem;
+
+	border-radius: 1rem;
+	box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+	transition: all 0.5s;
+
+	overflow: hidden;
+
+
 	@media (min-width: 45rem) {
 		width: 100%;
 		max-width: $width-chatbox;
-		border-radius: 0.8rem !important;
 		max-height: $height-chatbox;
+
+		border-radius: 0.8rem !important;
 	}
 
 	&__title {
-		background-color: $primary-color;
 		display: flex;
 
+		background-color: $primary-color;
+
 		h2 {
-			font-size: 20px;
 			height: 6rem;
 			margin: auto auto auto 2rem;
+
+			font-size: 20px;
 		}
 	}
 
 	&__messageBox {
-		background: rgb(234, 238, 243);
-		flex-grow: 1;
-		overflow: auto;
-		padding: 16px;
 		display: flex;
 		flex-direction: column;
+		flex-grow: 1;
+
+		padding: 16px;
+
+		background: rgb(234, 238, 243);
+
+		overflow: auto;
 	}
 
 	&__input {
-		border-top: 1px solid rgba(202, 202, 202, 0.76);
-		height: 6rem;
 		display: flex;
+
+		height: 6rem;
+
+		border-top: 1px solid rgba(202, 202, 202, 0.76);
 	}
 }

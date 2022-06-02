@@ -1,7 +1,9 @@
 .input {
 	&__message {
 		padding: 1rem 5rem 1rem 1.6rem;
+
 		flex-grow: 1;
+
 		border: none;
 
 		&:focus {
@@ -10,11 +12,15 @@
 	}
 
 	&__send {
-		background: #fff;
+		right: 0;
+
 		width: 6rem;
 		height: 6rem;
-		right: 0;
+
 		border: none;
+
+		background: #fff;
+
 		cursor: pointer;
 
 		&:hover {
