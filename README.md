@@ -1,14 +1,14 @@
 # 🤖 Chatbot
 
 ## Table of contents
-* ℹ️ [General info](#general-info)
-* 🎉[Project overview](#project-overview)
-* 📖 [What I learned during this project?](#what-i-learned-during-this-project)
-* ⚙️ [Technologies](#technologies)
-* 📷 [Screenshots](#screenshots)
-* 💾 [Installation](#installation)
-* 📜 [Available scripts](#available-scripts)
-* 🔴 [Live](#live)
+* ℹ️ [General info](#ℹ️-general-info)
+* 🎉[Project overview](#-project-overview)
+* 📖 [What I learned during this project?](#-what-i-learned-during-this-project)
+* ⚙️ [Technologies](#️-technologies-used-in-project)
+* 📷 [Screenshots](#-screenshots)
+* 💾 [Installation](#-installation)
+* 📜 [Available scripts](#-available-scripts)
+* 🔴 [Live](#-live)
 
 ## ℹ️ General info
 
